@@ -1,0 +1,75 @@
+* {
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'PT Sans', sans-serif; */
+    /* font-family: 'Droid Sans', sans-serif; */
+    /* font-family: Rockwell, "Courier New", Courier, Georgia, serif; */
+    line-height: 100%;
+}
+
+body {
+    background-color: #21252c;
+    font-family: 'Lato', sans-serif;
+    color: #282c35;
+    /*OTHER COLORS: Pink = f92772; Purple = ae81ff; Teal = 66d9ef; orange = fd9720;  */
+}
+
+/* Elements with IDs */
+#navbar {
+    background-color: #232323;
+    color: #6699cc;
+    opacity: 0.8;
+}
+
+#displayText {
+    background-color: #272b34;
+    /* cloud blue */
+    /*color: #6699cc;*/
+
+    /* steel blue */
+    /*color: #a4abb9; */
+
+    /* pink red */
+    color: #b2436d;
+}
+
+/* Classes */
+button.buttonRed{
+    padding: 5px;
+    border: 0px;
+    background-color: #b2436d;
+    color: #272b34;
+
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button.buttonBlue {
+    padding: 5px;
+    border: 0px;
+    background-color: #6699cc;
+    color: #272b34;
+
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input.largeText {
+    background-color: #21252c;
+    color: #6699cc;
+    padding: 5px;
+    font: 32px 'Lato', sans-serif;
+    border: 0px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.redLine {
+    border: 1px solid #b2436d;
+    width: 90%;
+}
